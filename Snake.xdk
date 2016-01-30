@@ -6,10 +6,10 @@
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "",
       "projectGuid": "e55ec748-7aa2-4077-9811-e9a93295926c",
-      "lastModifiedDate": 1449018726973,
+      "lastModifiedDate": 1452884042210,
       "creationDate": 1447552274793
     },
-    "sourceDirectory": "allOfIndex/Asnake",
+    "sourceDirectory": "",
     "cordovaPluginsDirectory": "plugins",
     "gameAssetDirectory": "asset",
     "gameMetadata": {},
@@ -26,6 +26,13 @@
         }
       },
       "xdk/xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      },
+      ".git/xdk": {
         "settings": {
           "project": {
             "XDK-generated": "true"
@@ -138,7 +145,9 @@
         "name_": "iOS",
         "preferences_": {
           "ios-target": "6",
-          "ios-configuration": "adhoc"
+          "ios-configuration": "adhoc",
+          "Orientation": "portrait",
+          "Fullscreen": true
         },
         "isActive_": true,
         "appName_": "Snake",
