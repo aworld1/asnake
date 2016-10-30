@@ -1,12 +1,12 @@
 {
   "project": {
-    "projectSettingsVersion": "2.0.0",
+    "projectSettingsVersion": "3.0.0",
     "creationData": {
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "src": "",
       "projectGuid": "e55ec748-7aa2-4077-9811-e9a93295926c",
-      "lastModifiedDate": 1452884042210,
+      "lastModifiedDate": 1468084883920,
       "creationDate": 1447552274793
     },
     "sourceDirectory": "",
@@ -16,7 +16,15 @@
     "testDirectory": "test",
     "startFile": "index.html",
     "projectTags": [],
-    "projectFiles": {},
+    "projectFiles": {
+      "xdk-publish-meta-data.json": {
+        "settings": {
+          "project": {
+            "XDK-not-deployed": "True"
+          }
+        }
+      }
+    },
     "projectDirectories": {
       "xdk": {
         "settings": {
@@ -103,67 +111,41 @@
         ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "1.0.3",
         "appVersionCode_": "2",
-        "crosswalkVersion_": "14",
         "cordovaCLIVersion_": "5.1.1",
         "appAuthor_": "Assaf Cohen-Arazi",
-        "appDescription_": "Prepare for the classical game of Snake remade and tweaked! Instructions: Press the arrow keys to guide around the blue snake that you are (you can not switch opposite directions). Do not collide with yourself or a wall. Try to get the green dot (apple) on your screen, but every time you get one, you grow longer. The point of the game is to survive. Credits:  Ryan Mell for launch icon (not copyright)"
-      },
-      "Android-Crosswalk": {
-        "platform_": "android",
-        "runtime_": "W3C on Crosswalk",
-        "name_": "Android-Crosswalk",
-        "preferences_": {
-          "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
-        },
-        "isActive_": true,
-        "appName_": "Snake",
-        "appID_": "not.yet.specified",
-        "appAccess_": {
-          "mode": "legacy",
-          "network": [
-            "*"
-          ],
-          "intents": [],
-          "navigation": []
-        },
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
-        "crosswalkVersion_": "15",
-        "cordovaCLIVersion_": "5.1.1"
+        "appDescription_": "Prepare for the classical game of Snake remade and tweaked! Instructions: Press the arrow keys to guide around the blue snake that you are (you can not switch opposite directions). Do not collide with yourself or a wall. Try to get the green dot (apple) on your screen, but every time you get one, you grow longer. The point of the game is to survive. Credits:  Ryan Mell for launch icon (not copyright)",
+        "crosswalkVersion_": "16"
       },
       "iOS": {
         "platform_": "ios",
         "runtime_": "W3C on Cordova",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "6",
           "ios-configuration": "adhoc",
           "Orientation": "portrait",
-          "Fullscreen": true
+          "Fullscreen": true,
+          "deployment-target": "6"
         },
         "isActive_": true,
         "appName_": "Snake",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
           "intents": [],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.1",
         "cordovaCLIVersion_": "5.1.1",
         "iosProvs_": []
@@ -177,17 +159,19 @@
         "appName_": "Snake",
         "appID_": "not.yet.specified",
         "appAccess_": {
-          "mode": "legacy",
+          "mode": "whitelist",
           "network": [
             "*"
           ],
           "intents": [],
-          "navigation": []
+          "navigation": [],
+          "properties": {}
         },
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.0.1",
         "cordovaCLIVersion_": "5.1.1"
       },
@@ -211,6 +195,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.1"
       },
       "Firefox": {
@@ -233,6 +218,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.1"
       },
       "Chrome": {
@@ -255,6 +241,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.1"
       },
       "Facebook": {
@@ -277,6 +264,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.1"
       },
       "WP81": {
@@ -299,6 +287,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "certificateId_": "",
         "appVersion_": "0.0.0.1",
         "cordovaCLIVersion_": "5.1.1"
       }
