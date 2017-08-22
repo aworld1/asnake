@@ -1,7 +1,7 @@
-info*
-test**
-I hope this works***
-feature*
-hi**
-Wow I hope I hope***
+info*&
+test**& 
+I hope this works***&
+feature*&
+hi**&
+Wow I hope I hope***&
 *END*
