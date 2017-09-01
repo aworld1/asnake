@@ -9,7 +9,7 @@ Credits#
 While regular credits are required for graduating high school, university credits are only needed if applying to a UC/CSU college.#
 feature#
 Creator#
-The creator of PlanPal is Assaf Cohen-Arazi. The following program is patent pending. Copyright PlanPal 2017 All Rights Reserved.#
+The creator of PlanPal is Assaf Cohen-Arazi. The following program is patent pending.<br/>Copyright PlanPal 2017 All Rights Reserved.#
 warning#
 Remember#
 Remember to keep both GPAs up, weighted and unweighted#
